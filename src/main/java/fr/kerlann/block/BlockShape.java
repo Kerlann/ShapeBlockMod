@@ -49,7 +49,7 @@ public class BlockShape extends Block {
 
     public void setBlockBoundsBasedOnState(IBlockAccess world, int x, int y, int z)
     {
-        this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 2F, 1.0F);
+        this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 1.5F, 1.0F);
     }
 
 

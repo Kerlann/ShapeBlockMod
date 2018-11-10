@@ -29,7 +29,7 @@ public class Main
     {
 
         //Add Block
-        Block_Shape = new BlockShape(Material.leaves).setBlockName("BlockShape").setBlockTextureName("landia:BlockShape").setCreativeTab(CreativeTabs.tabBlock);
+        Block_Shape = new BlockShape(Material.leaves).setBlockName("BlockShape").setBlockTextureName("customblock:BlockShape").setCreativeTab(CreativeTabs.tabBlock);
         GameRegistry.registerBlock(Block_Shape, "BlockShape");
 
 
